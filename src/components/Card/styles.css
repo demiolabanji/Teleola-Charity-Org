@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    .responsive-card {
+      padding-top: 20px; /* Add desired amount of padding */
+      padding-bottom: 20px; /* Add desired amount of padding */
+    }
+  }
+  
+  /* For tablet devices */
+  @media (max-width: 768px) {
+    .responsive-card {
+      padding-top: 10px; /* Less padding than phones */
+      padding-bottom: 10px; /* Less padding than phones */
+    }
+  }
+
+  .responsive-card {
+    padding-top: 10px; /* Less padding than phones */
+    padding-bottom: 10px; /* Less padding than phones */
+  }

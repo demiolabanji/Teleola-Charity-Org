@@ -1,0 +1,34 @@
+/* src/Menu.css */
+.menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-item-left {
+    margin-right: auto; /* This will push all the other menu items to the right */
+    font-size: 40;
+  }
+  
+  .menu-item-right {
+    margin-left: auto; /* This will ensure the item stays to the right */
+  }
+
+  .no-underline a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the text color consistent */
+  }
+  
+  /* You might also want to remove the hover effect */
+  .no-underline a:hover {
+    border-bottom: none; /* Removes the bottom border on hover */
+  }
+
+  .menu-item-static {
+    flex-grow: 1; /* Allows the div to take up the space needed */
+    padding: 0 20px; /* Match the padding of other menu items */
+    line-height: 46px; /* Match the line height of other menu items for vertical centering */
+  }
+
+  .menu-item-left-text {
+    font-size: 48;
+  }

@@ -1,0 +1,26 @@
+/* src/HomePage.css */
+
+.card-row {
+  padding-bottom: 20px;
+}
+  .mailing-list-section {
+    margin-top: 0px; /* Space from the previous section */
+    text-align: left;
+    padding: 16px;
+  }
+  
+  .main-card {
+    padding-bottom: 10px;
+  }
+  .avatar-col {
+    display: flex;
+    justify-content: center; /* Center the avatar on small screens */
+    padding-bottom: 16px; /* Spacing between avatar and text on small screens */
+  }
+  
+  @media screen and (min-width: 576px) {
+    .avatar-col {
+      justify-content: flex-start; /* Align avatar to the left on larger screens */
+      padding-bottom: 0; /* No spacing between avatar and text on larger screens */
+    }
+  }

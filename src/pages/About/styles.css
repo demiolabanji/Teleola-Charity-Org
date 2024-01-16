@@ -1,0 +1,42 @@
+/* src/HomePage.css */
+
+.card-row {}
+
+.mailing-list-section {
+  margin-top: 32px;
+  /* Space from the previous section */
+  text-align: left;
+  padding: 16px;
+}
+
+.avatar-col {
+  display: flex;
+  justify-content: center;
+  /* Center the avatar on small screens */
+  padding-bottom: 16px;
+  /* Spacing between avatar and text on small screens */
+}
+
+@media screen and (min-width: 576px) {
+  .avatar-col {
+    justify-content: flex-start;
+    /* Align avatar to the left on larger screens */
+    padding-bottom: 0;
+    /* No spacing between avatar and text on larger screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding-top: 20px; /* Add desired amount of padding */
+    padding-bottom: 20px; /* Add desired amount of padding */
+  }
+}
+
+/* For tablet devices */
+@media (max-width: 768px) {
+  .section {
+    padding-top: 10px; /* Less padding than phones */
+    padding-bottom: 10px; /* Less padding than phones */
+  }
+}
